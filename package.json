@@ -1,7 +1,7 @@
 {
-  "name": "Q-Sensei Style Guide",
+  "name": "Q-Sensei Website Style Guide",
   "version": "1.0.0",
-  "description": "Q-Sensei Style Guide",
+  "description": "Q-Sensei Website Style Guide",
   "scripts": {
     "clean": "rimraf dist",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
