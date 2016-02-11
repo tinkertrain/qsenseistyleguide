@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.main {
+  flex: 3 0px;
+  order: 2;
+  background-color: coral;
+}
+.header {
+  background-color: dodgerblue;
+}
+.sidebar {
+  flex: 1 auto;
+  order: 1;
+  background-color: lightgreen;
+}
+.footer  {
+  background-color: silver;
+}
