@@ -1,0 +1,25 @@
+@import "../../sass/vars.scss";
+
+.active {
+  background-color: lightgreen;
+}
+.topLevel {
+  list-style: none;
+  & > li {
+    margin-bottom: 30px;
+  }
+  h4 {
+    display: block;
+    text-transform: uppercase;
+    font-family: $sharp;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+}
+.secondLevel {
+  padding-left: 30px;
+
+  li {
+    margin-bottom: 10px;
+  }
+}
