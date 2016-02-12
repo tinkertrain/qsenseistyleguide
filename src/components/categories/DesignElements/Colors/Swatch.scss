@@ -1,0 +1,23 @@
+@import "../../../../sass/vars.scss";
+
+.swatch {
+  width: 110px;
+  border: 1px solid $lightgray;
+  padding: 5px;
+  color: $charcoal;
+}
+.sample {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto 5px;
+  padding-top: 40px;
+  text-align: center;
+}
+.isDark {
+  color: $light;
+}
+.info {
+  font-size: 13px;
+  text-align: center;
+  color: $charcoal;
+}
