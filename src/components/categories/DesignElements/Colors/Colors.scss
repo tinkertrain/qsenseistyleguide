@@ -1,0 +1,14 @@
+@import "../../../../sass/vars.scss";
+
+.swatchList {
+  list-style: none;
+}
+.swatch {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;  
+  }
+}
