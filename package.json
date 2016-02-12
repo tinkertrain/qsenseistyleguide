@@ -1,5 +1,5 @@
 {
-  "name": "Q-Sensei Website Style Guide",
+  "name": "QSensei_Website_Style_Guide",
   "version": "1.0.0",
   "description": "Q-Sensei Website Style Guide",
   "scripts": {
@@ -39,6 +39,8 @@
     "webpack-hot-middleware": "^2.6.0"
   },
   "dependencies": {
+    "classnames": "^2.2.3",
+    "lodash": "^4.3.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-router": "^2.0.0"
