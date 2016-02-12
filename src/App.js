@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
-import { IndexSidebar } from './components/IndexSidebar/IndexSidebar';
+import Sidebar from './components/Sidebar/';
 import { Index } from './components/Index/Index';
+import { Header } from './components/Header/Header';
+
 import styles from './App.scss';
 
 export class App extends Component {
   render() {
-    const { content, sidebar } = this.props;
+    const { content, sidebar, location } = this.props;
 
     return (
       <div>
-        <header className={styles.header}>Style Guide</header>
+        <Header />
         <div className={styles.container}>
           <aside className={styles.sidebar}>
-            {sidebar || <IndexSidebar />}
+            <Sidebar location={location.pathname}/>
           </aside>
           <section className={styles.main}>
-            {content || <Index />}
+            {this.props.children || <Index />}
           </section>
         </div>
         <footer className={styles.footer}>Q-Sensei</footer>
