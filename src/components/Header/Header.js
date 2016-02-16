@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../../images/logo.png';
+import { Link } from 'react-router';
+import logo from '../../images/logo_white.png';
 
 import styles from './Header.scss';
 
@@ -7,7 +8,9 @@ export class Header extends Component {
   render() {
     return (
       <header className={styles.header}>
-        <img src={logo} alt="Q-Sensei"/>
+        <Link to="/">
+          <img src={logo} alt="Q-Sensei"/>
+        </Link>
       </header>
     );
   }
