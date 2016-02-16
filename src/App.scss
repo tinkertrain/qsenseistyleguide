@@ -21,6 +21,7 @@
 }
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -32,24 +33,21 @@ html {
 .main {
   flex: 10 0px;
   order: 2;
-  padding: 15px;
 }
 .sidebar {
   flex: 1 auto;
   order: 1;
-  padding: 15px;
-  border-right: 1px solid $lightgray;
+  background-color: $lightgray;
 }
 .footer  {
   padding: 15px;
   border-top: 1px solid $lightgray;
 }
-h1, h2, h3, h4 {
-  font-family: $sharp;
-  font-weight: normal;
-}
 body {
   font-family: $serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 ul {
   margin: 0;
