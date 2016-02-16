@@ -9,8 +9,7 @@ export class Sidebar extends Component {
   render() {
     const { location } = this.props;
     return (
-      <div>
-        <h2>Categories</h2>
+      <div className={styles.mainSidebar}>
         <ul className={styles.topLevel}>
           {
             categories.map((category) => (
