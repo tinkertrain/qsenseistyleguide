@@ -18,6 +18,9 @@ const categories = [
       },
       {
         name: 'Form Elements'
+      },
+      {
+        name: 'Code'
       }
     ]
   }
@@ -26,12 +29,12 @@ const categories = [
 const palette = {
   grayscale: [
     {
-      name: '$darkgray',
-      value: '#131311',
+      name: '$black',
+      value: '#252521',
       dark: true
     },
     {
-      name: '$charcoal',
+      name: '$darkgray',
       value: '#2e2e2a',
       dark: true
     },
@@ -41,10 +44,10 @@ const palette = {
     },
     {
       name: '$lightgrey',
-      value: '#dedbd6'
+      value: '#dad8d0'
     }
   ],
-  brand: [
+  primary: [
     {
       name: '$blue',
       value: '#01ace0'
