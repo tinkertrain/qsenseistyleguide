@@ -8,28 +8,45 @@ export class Typography extends Component {
     return (
       <div>
         <section className={`${styles.bgLight} ${styles.pageSection}`}>
+          <h2>Font Families</h2>
+          <p>We use 3 typefaces at Q-Sensei:</p>
+          <ul className={styles.examplesList}>
+            <li>
+              <p className={`${styles.serif} ${styles.big}`}>The quick, brown fox.</p>
+              Serif: Utopia Std, available with the sass variable: <code className={styles.qs_codeInline}>{`$serif: 'utopia-std', 'Georgia', serif;`}</code>
+            </li>
+            <li>
+              <p className={`${styles.sansserif} ${styles.big}`}>The quick, brown fox.</p>
+              Sans Serif: Sharp Sans Semibold, available with the sass variable: <code className={styles.qs_codeInline}>{`$sansserif: 'sharp', sans-serif;`}</code>
+            </li>
+            <li>
+              <p className={`${styles.monospace} ${styles.big}`}>The quick, brown fox.</p>
+              Monospace: available with the sass variable: <code className={styles.qs_codeInline}>{`$monospace: Monaco, Consolas, 'Ubuntu Mono', Cantarell, monospace;`}</code>
+            </li>
+          </ul>
+        </section>
+
+        <section className={`${styles.bgMedium} ${styles.pageSection}`}>
           <h2>Sizing</h2>
-          <p>We use <code className={styles.qs_codeInline}>rem</code> units with a pixel fallback for maximum flexibility. We define a base font-size of 62.5% to have the convenience of sizing rems in a way that is similar to using px.</p>
+          <p>We use <code className={styles.qs_codeInline}>rem</code> units with a pixel fallback for maximum flexibility. We define a base font size of <code className={styles.qs_codeInline}>62.5%</code> to have the convenience of sizing rems in a way that is similar to using <code className={styles.qs_codeInline}>px</code>.</p>
           <p>Example:</p>
           <div className={styles.qs_codeBlock}>
             <CodeBlock language="css">
               {
-                `html { font-size: 62.5%; }
-.someClass { font-size: 1.4rem; } /* =14px */
-.someOtherClass   { font-size: 2.4rem; } /* =24px */`
+                `html {
+  font-size: 62.5%;
+}
+.someClass {
+  font-size: 14px; /* Fallback */
+  font-size: 1.4rem; /* =14px */
+}
+.someOtherClass {
+  font-size: 24px; /* Fallback */
+  font-size: 2.4rem; /* =24px */
+}`
               }
             </CodeBlock>
           </div>
-        </section>
-
-        <section className={`${styles.bgMedium} ${styles.pageSection}`}>
-          <h2>Font Families</h2>
-          <p>We use 3 typefaces at Q-Sensei:</p>
-          <ul>
-            <li><span className={styles.serif}>Serif</span>: Utopia Std, available with the sass variable: <code className={styles.qs_codeInline}>{`$serif: 'utopia-std', 'Georgia', serif;`}</code></li>
-            <li><span className={styles.sansserif}>Sans Serif</span>: Sharp Sans Semibold, available with the sass variable: <code className={styles.qs_codeInline}>{`$sansserif: 'sharp', sans-serif;`}</code></li>
-            <li><span className={styles.monospace}>Monospace</span>: available with the sass variable: <code className={styles.qs_codeInline}>{`$monospace: Monaco, Consolas, 'Ubuntu Mono', Cantarell, monospace;`}</code></li>
-          </ul>
         </section>
 
         <section className={`${styles.bgLight} ${styles.pageSection}`}>
@@ -143,40 +160,6 @@ export class Typography extends Component {
               <a href="#" className={styles.visited}>Visited</a>
             </li>
           </ul>
-        </section>
-
-        <section className={`${styles.bgMedium} ${styles.pageSection}`}>
-          <h2>Code</h2>
-          <h4>Inline code</h4>
-          <p>Something like <code className={styles.qs_codeInline}>font-size: 1.6rem;</code>.</p>
-          <div>
-            <p>Usage:</p>
-            <div className={styles.qs_codeBlock}>
-              <CodeBlock language="html">
-                  {`<p>Something like: <code class="qs_codeInline">font-size: 1.6rem;</code></p>`}
-              </CodeBlock>
-            </div>
-          </div>
-          <h4>Code Blocks</h4>
-          <div className={styles.qs_codeBlock}>
-            <CodeBlock language="javascript">
-              {`var myArray = [0, 1, 2];`}
-            </CodeBlock>
-          </div>
-          <div>
-            <p>Usage</p>
-            <div className={styles.qs_codeBlock}>
-              <CodeBlock language="html">
-                  {`<div class="qs_codeBlock">
-  <pre>
-    <code class="javascript">
-      var myArray = [0, 1, 2];
-    </code>
-  </pre>
-</div>`}
-              </CodeBlock>
-            </div>
-          </div>
         </section>
       </div>
     );
