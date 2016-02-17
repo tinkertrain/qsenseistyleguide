@@ -41,7 +41,8 @@ html {
 }
 .footer  {
   padding: 15px;
-  border-top: 1px solid $lightgray;
+  color: $white;
+  background-color: $darkgray;
 }
 body {
   font-family: $serif;
