@@ -8,28 +8,32 @@ export class Colors extends Component {
   render() {
     return (
       <div>
-        <h3>Colors</h3>
-        <p>These are the grayscale and primary color palettes as found in _palette.scss</p>
-        <h4>Grayscale Palette</h4>
-        <ul className={styles.swatchList}>
-          {
-            palette.grayscale.map((color) => (
-              <li key={color.name} className={styles.swatch}>
-                <Swatch name={color.name} value={color.value} dark={color.dark}/>
-              </li>
-            ))
-          }
-        </ul>
-        <h4>Primary Palette</h4>
-        <ul className={styles.swatchList}>
-          {
-            palette.brand.map((color) => (
-              <li key={color.name} className={styles.swatch}>
-                <Swatch name={color.name} value={color.value} dark={color.dark}/>
-              </li>
-            ))
-          }
-        </ul>
+        <section className={`${styles.bgLight} ${styles.pageSection}`}>
+          <h2>Grayscale Palette</h2>
+          <p>Grayscale color palette as found in <em>_palette.scss</em></p>
+          <ul className={styles.swatchList}>
+            {
+              palette.grayscale.map((color) => (
+                <li key={color.name} className={styles.swatch}>
+                  <Swatch name={color.name} value={color.value} dark={color.dark}/>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+        <section className={`${styles.bgLight} ${styles.pageSection}`}>
+          <h2>Primary Palette</h2>
+          <p>Primary color palette as found in <em>_palette.scss</em></p>
+          <ul className={styles.swatchList}>
+            {
+              palette.primary.map((color) => (
+                <li key={color.name} className={styles.swatch}>
+                  <Swatch name={color.name} value={color.value} dark={color.dark}/>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
       </div>
     );
   }
