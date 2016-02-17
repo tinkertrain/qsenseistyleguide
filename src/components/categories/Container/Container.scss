@@ -1,0 +1,23 @@
+@import "../../../sass/vars.scss";
+
+.header {
+  color: $white;
+  background-color: $mediumgray;
+  padding: 30px;
+
+  h4 {
+    margin: 0;
+  }
+}
+.main {
+  width: 600px;
+}
+.bgLight {
+  background-color: $white;
+}
+.bgMedium {
+  background-color: $lightgray;
+}
+.pageSection {
+  padding: 60px 30px;
+}
