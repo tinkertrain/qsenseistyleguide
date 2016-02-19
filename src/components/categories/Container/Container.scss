@@ -25,6 +25,10 @@
     background-color: rgba($lightgray, 0.25);
     padding: 30px;
     margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   .bgMedium & {
