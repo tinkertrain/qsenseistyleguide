@@ -49,19 +49,19 @@ const palette = {
   ],
   primary: [
     {
-      name: '$blue',
+      name: '$brand-blue',
       value: '#01ace0'
     },
     {
-      name: '$green',
+      name: '$brand-green',
       value: '#13be00'
     },
     {
-      name: '$yellow',
+      name: '$brand-yellow',
       value: '#ffe701'
     },
     {
-      name: '$red',
+      name: '$brand-red',
       value: '#eb4843'
     }
   ]
