@@ -11,7 +11,7 @@ export class Container extends Component {
     return (
       <div>
         <header className={styles.header}>
-          <h4>{parentPath}: {currentPath}</h4>
+          <h1>{parentPath}: {currentPath}</h1>
         </header>
         <section className={styles.main}>
           {this.props.children || (
