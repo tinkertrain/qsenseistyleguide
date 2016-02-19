@@ -1,7 +1,7 @@
 @import "../../sass/vars.scss";
 
 .active {
-  background-color: lightgreen;
+  color: $brand-blue !important;
 }
 .topLevel {
   list-style: none;
@@ -19,11 +19,16 @@
     letter-spacing: 1px;
     margin-bottom: 10px;
   }
+  a,
+  a:visited {
+    color: $black;
+  }
 }
 .secondLevel {
   padding-left: 15px;
 
   li {
     margin-bottom: 5px;
+    list-style-type: none;
   }
 }
