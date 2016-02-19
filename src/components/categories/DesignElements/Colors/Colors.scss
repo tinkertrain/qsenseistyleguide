@@ -3,13 +3,14 @@
 
 .swatchList {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .swatch {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 15px 15px 0;
-
-  &:last-child {
-    margin-right: 0;
-  }
+  flex: 0 1 auto;
+  margin-bottom: 15px;
+  margin-right: 15px;
 }
