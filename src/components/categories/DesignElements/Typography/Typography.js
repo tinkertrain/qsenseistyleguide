@@ -120,14 +120,14 @@ export class Typography extends Component {
 
         <section className={`${styles.bgLight} ${styles.pageSection}`}>
           <h2>Body copy</h2>
-          <p>The only style applied globally, sets the font family to $serif, the size to 16px - 1.6 rem and the line height to 1.5</p>
+          <p>Sets the font family to $serif, the size to 16px - 1.6 rem and the line height to 1.5</p>
           <p>To get <strong>bold text</strong>, wrap with a <code className={styles.qs_codeInline}>strong</code> element</p>
           <p>For <em>italics</em>, use <code className={styles.qs_codeInline}>em</code></p>
           <div>
             <p>Usage:</p>
             <div className={styles.qs_codeBlock}>
               <CodeBlock language="html">
-                  {`<p>The only style applied globally, sets the font family to $serif, the size to 16px - 1.6 rem and the line height to 1.5</p>
+                  {`<p>Sets the font family to $serif, the size to 16px - 1.6 rem and the line height to 1.5</p>
 <p>To get <strong>bold text</strong>, wrap with a strong element</p>
 <p>For <em>italics</em> use em</p>`}
               </CodeBlock>
@@ -142,7 +142,7 @@ export class Typography extends Component {
 
         <section className={`${styles.bgLight} ${styles.pageSection}`}>
           <h2>Links</h2>
-          <p>Something</p>
+          <p>All link states are taken into consideration and fully styled.</p>
           <ul>
             <li>
               <a href="#" className={styles.noState}>Link example</a>
