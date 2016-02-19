@@ -21,7 +21,7 @@ export class Colors extends Component {
             }
           </ul>
         </section>
-        <section className={`${styles.bgLight} ${styles.pageSection}`}>
+        <section className={`${styles.bgMedium} ${styles.pageSection}`}>
           <h2>Primary Palette</h2>
           <p>Primary color palette as found in <em>_palette.scss</em></p>
           <ul className={styles.swatchList}>
