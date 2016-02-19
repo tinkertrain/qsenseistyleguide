@@ -13,12 +13,12 @@ export class App extends Component {
       <div>
         <Header />
         <div className={styles.container}>
-          <aside className={styles.sidebar}>
-            <Sidebar location={location.pathname}/>
-          </aside>
           <section className={styles.main}>
             {this.props.children || <Index />}
           </section>
+          <aside className={styles.sidebar}>
+            <Sidebar location={location.pathname}/>
+          </aside>
         </div>
         <footer className={styles.footer}>Q-Sensei</footer>
       </div>

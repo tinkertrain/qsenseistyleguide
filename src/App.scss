@@ -28,16 +28,28 @@ html {
 }
 .container {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: space-around;
+  align-items: stretch;
+}
+.main,
+.sidebar {
+  width: 30%;
 }
 .main {
-  flex: 10 0px;
-  order: 2;
+  order: 1;
+  flex: 1 1 auto;
+  align-self: auto;
+  min-width: 400px;
 }
 .sidebar {
-  flex: 1 auto;
-  order: 1;
-  background-color: $lightgray;
+  order: 0;
+  flex: 0 0 auto;
+  align-self: auto;
+  min-width: 250px;
+  background-color: lighten($lightgray, 10%);
 }
 .footer  {
   padding: 15px;
