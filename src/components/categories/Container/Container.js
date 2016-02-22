@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './Container.scss';
+require('./Container.scss');
 
 export class Container extends Component {
   render() {
@@ -7,16 +7,30 @@ export class Container extends Component {
     const currentPathArray = location.pathname.split('/');
     const currentPath = splitAndCapitalize(currentPathArray[currentPathArray.length - 1]);
     const parentPath = splitAndCapitalize(currentPathArray[currentPathArray.length - 2]);
+    const path = parentPath ? `${parentPath}: ${currentPath}` : currentPath;
 
     return (
+
       <div>
-        <header className={styles.header}>
-          <h1>{parentPath}: {currentPath}</h1>
+        <header className="containerHeader">
+          <h1>{path}</h1>
         </header>
-        <section className={styles.main}>
-          {this.props.children || (
-            <p>Design Elements description could go here, or not</p>
-          )}
+        <section className="main">
+        {
+          this.props.children || (
+          <section className="bgLight pageSection">
+            {
+              path === 'Design Elements' ?
+              (<div>
+                <p>Styles and helpers to ensure consistency across the website and other projects.</p>
+              </div>) : null
+            }
+            {
+              path === 'Ui Components' ?
+              (<p>Styling UI Components is done via opt-in classes, and to avoid collision with other libraries or custom stylings, all Q-Sensei classes are prefixed with "qs_"</p>) : null
+            }
+          </section>
+        )}
         </section>
       </div>
     );

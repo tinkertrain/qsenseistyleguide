@@ -1,5 +1,5 @@
-@import "../../../../sass/vars.scss";
-@import "../../Container/Container.scss";
+@import "../../../../sass/_palette.scss";
+@import "../../../../sass/_fonts.scss";
 
 .serif {
   font-family: $serif;
@@ -32,74 +32,4 @@
 .focused {
   color: $brand-green;
   border: 1px dotted darken($brand-green, 15%);
-}
-
-// Actual Styles to port to website
-//  ------------------------------
-
-// Headings
-h1, h2, h3, h4 {
-  font-family: $sansserif;
-  font-weight: normal;
-
-  margin: 0 0 1em 0;
-  padding: 0;
-}
-h1, .qs_heading1 {
-  font-size: 36px;
-  font-size: 3.6rem;
-  line-height: 0.6666666666666666em;
-  margin-bottom: 0.6666666666666666em;
-}
-h2, .qs_heading2 {
-  font-size: 24px;
-  font-size: 2.4rem;
-  line-height: 1em;
-  margin-bottom: 1em;
-}
-h3, .qs_heading3 {
-  font-size: 18px;
-  font-size: 1.8rem;
-  line-height: 1.3333333333333333em;
-  margin-bottom: 1.3333333333333333em;
-
-}
-h4, .qs_heading4 {
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 1.5em;
-  margin-bottom: 1.5em;
-
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-p {
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  margin: 0 0 1.5em 0;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-.qs_entry {
-  font-size: 22px;
-  font-size: 2.2rem;
-  font-family: $sansserif;
-  text-align: center;
-}
-ul, ol, img {
-  margin-bottom: 1.5em;
-}
-.qs_codeBlock {
-  composes: qs_codeBlock from "../../UIComponents/Code/Code.scss";
-}
-.qs_codeInline {
-  composes: qs_codeInline from "../../UIComponents/Code/Code.scss";
-}
-.qs_pageTitle {
-  font-size: 40px;
-  font-size: 4rem;
 }

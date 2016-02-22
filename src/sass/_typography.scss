@@ -1,0 +1,106 @@
+// ==============================
+// Global
+// ==============================
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: $serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+// ==============================
+// Headings
+// ==============================
+h1, h2, h3, h4 {
+  font-family: $sansserif;
+  font-weight: normal;
+
+  padding: 0;
+  margin-top: 0;
+}
+h1, .qs_heading1 {
+  font-size: 36px;
+  font-size: 3.6rem;
+  line-height: 0.6666666666666666em;
+  margin-bottom: 0.6666666666666666em;
+}
+h2, .qs_heading2 {
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+h3, .qs_heading3 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1.3333333333333333em;
+  margin-bottom: 1.3333333333333333em;
+
+}
+h4, .qs_heading4 {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.qs_pageTitle {
+  font-size: 40px;
+  font-size: 4rem;
+  margin: 0;
+}
+
+// ==============================
+// Paragraph
+// ==============================
+p {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0 0 1.5em 0;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.qs_entry {
+  font-size: 22px;
+  font-size: 2.2rem;
+  font-family: $sansserif;
+  text-align: center;
+}
+
+// ==============================
+// Links
+// ==============================
+a {
+  text-decoration: none;
+  color: $brand-green;
+
+  &:hover,
+  &:active {
+    color: darken($brand-green, 15%);
+  }
+
+  &:focus {
+    color: $brand-green;
+    border: 1px dotted darken($brand-green, 15%);
+    outline: 0;
+  }
+
+  &:visited {
+    color: purple;
+  }
+}
+
+// ==============================
+// Other
+// ==============================
+ul, ol, img {
+  margin-bottom: 1.5em;
+}

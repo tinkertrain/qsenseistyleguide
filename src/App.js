@@ -3,7 +3,7 @@ import Sidebar from './components/Sidebar/';
 import { Index } from './components/Index/Index';
 import { Header } from './components/Header/Header';
 
-import styles from './App.scss';
+require('./App.scss');
 
 export class App extends Component {
   render() {
@@ -12,15 +12,15 @@ export class App extends Component {
     return (
       <div>
         <Header />
-        <div className={styles.container}>
-          <section className={styles.main}>
+        <div className="container">
+          <section className="main">
             {this.props.children || <Index />}
           </section>
-          <aside className={styles.sidebar}>
+          <aside className="sidebar">
             <Sidebar location={location.pathname}/>
           </aside>
         </div>
-        <footer className={styles.footer}>Q-Sensei</footer>
+        <footer className="footer">Q-Sensei</footer>
       </div>
     );
   }

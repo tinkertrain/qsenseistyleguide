@@ -1,31 +1,7 @@
-@import "sass/vars.scss";
+@import "./sass/_palette.scss";
+@import "./sass/_fonts.scss";
+@import "./sass/main.scss";
 
-@font-face {
-	font-family: 'sharp';
-	src:url('./fonts/SharpSansNo1-Semibold.eot');
-	src:url('./fonts/SharpSansNo1-Semibold.eot') format('embedded-opentype'),
-		url('./fonts/SharpSansNo1-Semibold.woff') format('woff'),
-		url('./fonts/SharpSansNo1-Semibold.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'sharp';
-	src:url('./fonts/SharpSansNo1-Bold.eot');
-	src:url('./fonts/SharpSansNo1-Bold.eot') format('embedded-opentype'),
-		url('./fonts/SharpSansNo1-Bold.woff') format('woff'),
-		url('./fonts/SharpSansNo1-Bold.svg') format('svg');
-	font-weight: bold;
-	font-style: normal;
-}
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 .container {
   display: flex;
   flex-direction: row;
@@ -34,10 +10,7 @@ html {
   align-content: space-around;
   align-items: stretch;
 }
-.main,
-.sidebar {
-  width: 30%;
-}
+
 .main {
   order: 1;
   flex: 1 1 auto;
@@ -56,17 +29,11 @@ html {
   color: $white;
   background-color: $darkgray;
 }
-body {
-  font-family: $serif;
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
 ul {
   margin: 0;
   padding: 0;
   list-style-position: inside;
 }
-a {
-  text-decoration: none;
+.sample {
+  margin-bottom: 30px;
 }

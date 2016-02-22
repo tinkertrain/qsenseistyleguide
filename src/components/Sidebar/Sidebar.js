@@ -3,30 +3,30 @@ import { Link } from 'react-router';
 import classnames from 'classnames';
 import { categories } from '../../data/styleguide';
 
-import styles from './Sidebar.scss';
+require('./Sidebar.scss');
 
 export class Sidebar extends Component {
   render() {
     const { location } = this.props;
     return (
-      <div className={styles.mainSidebar}>
-        <ul className={styles.topLevel}>
+      <div className="mainSidebar">
+        <ul className="topLevel">
           {
             categories.map((category) => (
               <li key={category.name}>
                 <h4>
                   <Link
-                    className={classnames({ [styles.active]: location.indexOf(dasherize(category.name)) >= 0 })}
+                    className={classnames({ sidebarActive: location.indexOf(dasherize(category.name)) >= 0 })}
                     to={`/${dasherize(category.name)}`}
                   >
                     {category.name}
                   </Link>
                 </h4>
-                <ul className={styles.secondLevel}>
+                <ul className="secondLevel">
                   { category.items.map((item) => (
                       <li key={item.name}>
                         <Link
-                          className={classnames({ [styles.active]: location.indexOf(dasherize(item.name)) >= 0 })}
+                          className={classnames({ sidebarActive: location.indexOf(dasherize(item.name)) >= 0 })}
                           to={`/${dasherize(category.name)}/${dasherize(item.name)}`}
                         >
                           {item.name}

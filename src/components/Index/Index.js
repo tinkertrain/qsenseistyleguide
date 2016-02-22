@@ -10,6 +10,6 @@ export class Index extends Component {
           can participate in the routing.
         </p>
       </div>
-    )
+    );
   }
 }

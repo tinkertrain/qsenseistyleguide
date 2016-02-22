@@ -1,10 +1,11 @@
-@import "../../sass/vars.scss";
+@import "../../sass/_palette.scss";
 
-.header {
+.mainHeader {
   padding: 30px;
   background-color: $darkgray;
 
   img {
     width: 200px;
+    margin: 0;
   }
 }
