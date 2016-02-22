@@ -48,29 +48,50 @@ h1, h2, h3, h4 {
 h1, .qs_heading1 {
   font-size: 36px;
   font-size: 3.6rem;
+  line-height: 0.6666666666666666em;
+  margin-bottom: 0.6666666666666666em;
 }
 h2, .qs_heading2 {
   font-size: 24px;
   font-size: 2.4rem;
+  line-height: 1em;
+  margin-bottom: 1em;
 }
 h3, .qs_heading3 {
   font-size: 18px;
   font-size: 1.8rem;
+  line-height: 1.3333333333333333em;
+  margin-bottom: 1.3333333333333333em;
 
 }
 h4, .qs_heading4 {
   font-size: 16px;
   font-size: 1.6rem;
-  text-transform: uppercase;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 p {
-  margin-bottom: 1em;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0 0 1.5em 0;
 
   &:last-child {
     margin-bottom: 0;
   }
+}
+.qs_entry {
+  font-size: 22px;
+  font-size: 2.2rem;
+  font-family: $sansserif;
+  text-align: center;
+}
+ul, ol, img {
+  margin-bottom: 1.5em;
 }
 .qs_codeBlock {
   composes: qs_codeBlock from "../../UIComponents/Code/Code.scss";

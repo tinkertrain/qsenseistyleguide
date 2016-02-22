@@ -136,8 +136,17 @@ export class Typography extends Component {
         </section>
 
         <section className={`${styles.bgMedium} ${styles.pageSection}`}>
-          <h2>Other body copy</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2>Entry body copy</h2>
+          <p>For an intro to a section that needs to be emphacized.</p>
+          <p className={styles.qs_entry}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div>
+            <p>Usage:</p>
+            <div className={styles.qs_codeBlock}>
+              <CodeBlock language="html">
+                  {`<p class="qs_entry">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>`}
+              </CodeBlock>
+            </div>
+          </div>
         </section>
 
         <section className={`${styles.bgLight} ${styles.pageSection}`}>
