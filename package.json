@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "cssnano": "^3.5.2",
+    "node-sass": "^3.4.2",
+    "postcss": "^5.0.16",
+    "postcss-cli": "^2.5.1",
+    "rimraf": "^2.5.2",
+    "watch": "^0.17.1"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "fonts": "cp -r fonts dist",
+    "prebuild:css": "node-sass --include-path scss sass/main.scss dist/qsstyles.css",
+    "build:css": "postcss --use autoprefixer -b 'last 2 versions' < dist/qsstyles.css | postcss --use cssnano > dist/qsstyles.min.css",
+    "build": "npm run clean && npm run build:css && npm run fonts",
+    "build:watch": "watch 'npm run build' sass/*"
+  }
+}
