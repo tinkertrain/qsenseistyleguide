@@ -107,8 +107,10 @@ export class Typography extends Component {
 
         <section className="bgMedium pageSection">
           <h2>Page Titles</h2>
-          <h1>The quick, brown fox.</h1>
           <p>Used only for the header of each page, always an <code className="qs_CodeInline">h1</code> with a class of <code className="qs_CodeInline">.qs_PageTitle</code></p>
+          <div className="sample">
+            <h1 className="qs_PageTitle">The quick, brown fox.</h1>
+          </div>
           <div>
             <p>Usage:</p>
             <div className="qs_CodeBlock">
@@ -121,7 +123,7 @@ export class Typography extends Component {
 
         <section className="bgLight pageSection">
           <h2>Body copy</h2>
-          <p>Sets the font family to $serif, the size to 16px - 1.6 rem and the line height to 1.5</p>
+          <p>Sets the font family to $serif, the size to 16px - 1.6 rem and the line height to 1.5 and color to <code className="qs_CodeInline">$black</code></p>
           <p>To get <strong>bold text</strong>, wrap with a <code className="qs_CodeInline">strong</code> element</p>
           <p>For <em>italics</em>, use <code className="qs_CodeInline">em</code></p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -140,7 +142,7 @@ export class Typography extends Component {
         <section className="bgMedium pageSection">
           <h2>Entry body copy</h2>
           <p>For an intro to a section that needs to be emphacized.</p>
-          <p className="qs_entry">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p className="qs_Entry">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <div>
             <p>Usage:</p>
             <div className="qs_CodeBlock">
@@ -170,6 +172,15 @@ export class Typography extends Component {
             <li>
               <a href="#" className="visited">Visited</a>
             </li>
+          </ul>
+        </section>
+
+        <section className="bgMedium pageSection">
+          <h2>Typography Helpers</h2>
+          <ul>
+            <li>Align text to the center: add the class <code className="qs_CodeInline">qs_Center</code></li>
+            <li>Align text to the left: add the class <code className="qs_CodeInline">qs_Left</code></li>
+            <li>Align text to the right: add the class <code className="qs_CodeInline">qs_Right</code></li>
           </ul>
         </section>
       </div>
