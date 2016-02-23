@@ -1,6 +1,22 @@
 var path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin');
+var ejs = require('ejs');
+var fs = require('fs');
+
+var template = ejs.compile(fs.readFileSync(__dirname + '/src/template.ejs', 'utf-8'));
+
+var paths = [
+  '/',
+  '/design_elements',
+  '/design_elements/colors',
+  '/design_elements/typography',
+  '/ui_components',
+  '/ui_components/buttons',
+  '/ui_components/form_elements',
+  '/ui_components/code'
+];
 
 module.exports = {
   devtool: 'source-map',
@@ -10,7 +26,8 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/'
+    publicPath: '/',
+    libraryTarget: 'umd'
   },
   plugins: [
     new ExtractTextPlugin('style.css', { allChunks: true }),
@@ -24,7 +41,8 @@ module.exports = {
       compressor: {
         warnings: false
       }
-    })
+    }),
+    new StaticSiteGeneratorPlugin('main', paths, { template })
   ],
   module: {
     loaders: [
@@ -35,7 +53,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!sass-loader!postcss-loader')
+        loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader!postcss-loader')
       },
       {
         test: /\.css$/,
