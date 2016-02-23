@@ -89,8 +89,7 @@ a {
 
   &:focus {
     color: $brand-green;
-    border: 1px dotted darken($brand-green, 15%);
-    outline: 0;
+    outline: 1px dotted darken($brand-green, 15%);
   }
 
   &:visited {
