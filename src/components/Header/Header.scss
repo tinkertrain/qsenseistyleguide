@@ -1,9 +1,11 @@
-@import "../../sass/_palette.scss";
+@import "../../qsstyles/sass/_palette.scss";
 
 .mainHeader {
   padding: 30px;
   background-color: $darkgray;
-
+  a {
+    display: inline-block;
+  }
   img {
     width: 200px;
     margin: 0;
