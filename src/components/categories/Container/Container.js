@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { splitAndCapitalize } from '../../../utils/utils';
+
 require('./Container.scss');
 
 export class Container extends Component {
@@ -35,11 +37,4 @@ export class Container extends Component {
       </div>
     );
   }
-}
-
-function splitAndCapitalize(str) {
-  let toArr = str.split('_');
-  let capArray = toArr.map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase());
-
-  return capArray.join(' ');
 }
