@@ -8,30 +8,30 @@ export class Typography extends Component {
     return (
       <div>
         <section className="bgLight pageSection">
-          <p>Found in <code className="qs_codeInline">_typography.scss</code></p>
+          <p>Found in <code className="qs_CodeInline">_typography.scss</code></p>
           <h2>Font Families</h2>
           <p>We use 3 typefaces at Q-Sensei:</p>
           <ul className="examplesList">
             <li>
               <p className="serif big">The quick, brown fox.</p>
-              Serif: Utopia Std, available with the sass variable: <code className="qs_codeInline">{`$serif: 'utopia-std', 'Georgia', serif;`}</code>
+              Serif: Utopia Std, available with the sass variable: <code className="qs_CodeInline">{`$serif: 'utopia-std', 'Georgia', serif;`}</code>
             </li>
             <li>
               <p className="sansserif big">The quick, brown fox.</p>
-              Sans Serif: Sharp Sans Semibold, available with the sass variable: <code className="qs_codeInline">{`$sansserif: 'sharp', sans-serif;`}</code>
+              Sans Serif: Sharp Sans Semibold, available with the sass variable: <code className="qs_CodeInline">{`$sansserif: 'sharp', sans-serif;`}</code>
             </li>
             <li>
               <p className="monospace big">The quick, brown fox.</p>
-              Monospace: available with the sass variable: <code className="qs_codeInline">{`$monospace: Monaco, Consolas, 'Ubuntu Mono', Cantarell, monospace;`}</code>
+              Monospace: available with the sass variable: <code className="qs_CodeInline">{`$monospace: Monaco, Consolas, 'Ubuntu Mono', Cantarell, monospace;`}</code>
             </li>
           </ul>
         </section>
 
         <section className="bgMedium pageSection">
           <h2>Sizing</h2>
-          <p>We use <code className="qs_codeInline">rem</code> units with a pixel fallback for maximum flexibility. We define a base font size of <code className="qs_codeInline">62.5%</code> to have the convenience of sizing rems in a way that is similar to using <code className="qs_codeInline">px</code>.</p>
+          <p>We use <code className="qs_CodeInline">rem</code> units with a pixel fallback for maximum flexibility. We define a base font size of <code className="qs_CodeInline">62.5%</code> to have the convenience of sizing rems in a way that is similar to using <code className="qs_CodeInline">px</code>.</p>
           <p>Example:</p>
-          <div className="qs_codeBlock">
+          <div className="qs_CodeBlock">
             <CodeBlock language="css">
               {
                 `html {
@@ -55,49 +55,49 @@ export class Typography extends Component {
           <p>All headings use the sans serif typeface (sharp semibold).</p>
           <ul className="examplesList">
             <li>
-              <h1 className="qs_heading">Heading 1: The quick, brown fox</h1>
+              <h1 className="qs_Heading1">Heading 1: The quick, brown fox</h1>
                 <div>
                   <p>Usage:</p>
-                  <div className="qs_codeBlock">
+                  <div className="qs_CodeBlock">
                     <CodeBlock language="html">
                       {`<h1>The quick, brown fox</h1>
-<!-- Optionally use the class "qs_heading1" -->`}
+<!-- Optionally use the class "qs_Heading1" -->`}
                     </CodeBlock>
                   </div>
                 </div>
             </li>
             <li>
-              <h2 className="qs_heading">Heading 2: The quick, brown fox</h2>
+              <h2 className="qs_Heading2">Heading 2: The quick, brown fox</h2>
                 <div>
                   <p>Usage:</p>
-                  <div className="qs_codeBlock">
+                  <div className="qs_CodeBlock">
                     <CodeBlock language="html">
                         {`<h2>The quick, brown fox</h2>
-<!-- Optionally use the class "qs_heading2" -->`}
+<!-- Optionally use the class "qs_Heading2" -->`}
                     </CodeBlock>
                   </div>
                 </div>
             </li>
             <li>
-              <h3 className="qs_heading">Heading 3: The quick, brown fox</h3>
+              <h3 className="qs_Heading3">Heading 3: The quick, brown fox</h3>
                 <div>
                   <p>Usage:</p>
-                  <div className="qs_codeBlock">
+                  <div className="qs_CodeBlock">
                     <CodeBlock language="html">
                         {`<h3>The quick, brown fox</h3>
-<!-- Optionally use the class "qs_heading3" -->`}
+<!-- Optionally use the class "qs_Heading3" -->`}
                       </CodeBlock>
                   </div>
                 </div>
             </li>
             <li>
-              <h4 className="qs_heading">Heading 4: The quick, brown fox</h4>
+              <h4 className="qs_Heading4">Heading 4: The quick, brown fox</h4>
                 <div>
                   <p>Usage:</p>
-                  <div className="qs_codeBlock">
+                  <div className="qs_CodeBlock">
                     <CodeBlock language="html">
                         {`<h4>The quick, brown fox</h4>
-<!-- Optionally use the class "qs_heading4" -->`}
+<!-- Optionally use the class "qs_Heading4" -->`}
                       </CodeBlock>
                   </div>
                 </div>
@@ -108,10 +108,10 @@ export class Typography extends Component {
         <section className="bgMedium pageSection">
           <h2>Page Titles</h2>
           <h1>The quick, brown fox.</h1>
-          <p>Used only for the header of each page, always an <code className="qs_codeInline">h1</code> with a class of <code className="qs_codeInline">.qs_pageTitle</code></p>
+          <p>Used only for the header of each page, always an <code className="qs_CodeInline">h1</code> with a class of <code className="qs_CodeInline">.qs_PageTitle</code></p>
           <div>
             <p>Usage:</p>
-            <div className="qs_codeBlock">
+            <div className="qs_CodeBlock">
               <CodeBlock language="html">
                   {`<h1 class="qs_pageTitle">The quick, brown fox</h4>`}
               </CodeBlock>
@@ -122,12 +122,12 @@ export class Typography extends Component {
         <section className="bgLight pageSection">
           <h2>Body copy</h2>
           <p>Sets the font family to $serif, the size to 16px - 1.6 rem and the line height to 1.5</p>
-          <p>To get <strong>bold text</strong>, wrap with a <code className="qs_codeInline">strong</code> element</p>
-          <p>For <em>italics</em>, use <code className="qs_codeInline">em</code></p>
+          <p>To get <strong>bold text</strong>, wrap with a <code className="qs_CodeInline">strong</code> element</p>
+          <p>For <em>italics</em>, use <code className="qs_CodeInline">em</code></p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <div>
             <p>Usage:</p>
-            <div className="qs_codeBlock">
+            <div className="qs_CodeBlock">
               <CodeBlock language="html">
                   {`<p>Sets the font family to $serif, the size to 16px - 1.6 rem and the line height to 1.5</p>
 <p>To get <strong>bold text</strong>, wrap with a strong element</p>
@@ -143,7 +143,7 @@ export class Typography extends Component {
           <p className="qs_entry">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <div>
             <p>Usage:</p>
-            <div className="qs_codeBlock">
+            <div className="qs_CodeBlock">
               <CodeBlock language="html">
                   {`<p class="qs_entry">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>`}
               </CodeBlock>

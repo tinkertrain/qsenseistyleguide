@@ -6,30 +6,30 @@ export class Code extends Component {
     return (
       <div>
         <section className="bgLight pageSection">
-          <p>Found in <code className="qs_codeInline">_code.scss</code></p>
+          <p>Found in <code className="qs_CodeInline">_code.scss</code></p>
           <h2>Inline Code</h2>
-          <p>Something like <code className="qs_codeInline">font-size: 1.6rem;</code>.</p>
+          <p>Something like <code className="qs_CodeInline">font-size: 1.6rem;</code>.</p>
           <div>
             <p>Usage:</p>
-            <div className="qs_codeBlock">
+            <div className="qs_CodeBlock">
               <CodeBlock language="html">
-                  {`<p>Something like: <code class="qs_codeInline">font-size: 1.6rem;</code></p>`}
+                  {`<p>Something like: <code class="qs_CodeInline">font-size: 1.6rem;</code></p>`}
               </CodeBlock>
             </div>
           </div>
         </section>
         <section className="bgMedium pageSection">
           <h2>Code Blocks</h2>
-          <div className="qs_codeBlock">
+          <div className="qs_CodeBlock">
             <CodeBlock language="javascript">
               {`var myArray = [0, 1, 2];`}
             </CodeBlock>
           </div>
           <div>
             <p>Usage</p>
-            <div className="qs_codeBlock">
+            <div className="qs_CodeBlock">
               <CodeBlock language="html">
-                  {`<div class="qs_codeBlock">
+                  {`<div class="qs_CodeBlock">
   <pre>
     <code class="javascript">
       var myArray = [0, 1, 2];

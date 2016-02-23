@@ -6,7 +6,7 @@ export class FormElements extends Component {
     return (
       <div>
         <section className="bgLight pageSection">
-          <p>Found in <code className="qs_codeInline">_formElements.scss</code></p>
+          <p>Found in <code className="qs_CodeInline">_formElements.scss</code></p>
           <h2>Basic Elements</h2>
           <ul className="examplesList">
             <li>
@@ -17,7 +17,7 @@ export class FormElements extends Component {
                 </div>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<div class="qs_Input">
@@ -43,7 +43,7 @@ export class FormElements extends Component {
                 </div>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<div class="qs_Input">
@@ -62,7 +62,7 @@ export class FormElements extends Component {
                 </div>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<div class="qs_Input">
@@ -82,7 +82,7 @@ export class FormElements extends Component {
                 </div>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<div class="qs_Input qs_Input--inline">
@@ -101,7 +101,7 @@ export class FormElements extends Component {
                 </div>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<div class="qs_Input">
@@ -124,7 +124,7 @@ export class FormElements extends Component {
                 </div>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<div class="qs_Input qs_Select">
@@ -170,7 +170,7 @@ export class FormElements extends Component {
                 </form>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<form class="qs_Form">
@@ -214,7 +214,7 @@ export class FormElements extends Component {
                 </form>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<form class="qs_Form">
@@ -260,7 +260,7 @@ export class FormElements extends Component {
                 </form>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<form class="qs_Form qs_Form--inline">

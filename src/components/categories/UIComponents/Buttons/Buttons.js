@@ -6,7 +6,7 @@ export class Buttons extends Component {
     return (
       <div>
         <section className="bgLight pageSection">
-          <p>Found in <code className="qs_codeInline">_buttons.scss</code></p>
+          <p>Found in <code className="qs_CodeInline">_buttons.scss</code></p>
           <h2>Color Variations</h2>
           <ul className="examplesList">
             <li>
@@ -15,7 +15,7 @@ export class Buttons extends Component {
                 <button className="qs_Button qs_Button--green">Sign up</button>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<button class="qs_Button qs_Button--green">Sign up</button>`
@@ -29,7 +29,7 @@ export class Buttons extends Component {
                 <button className="qs_Button qs_Button--dark">See all features</button>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<button class="qs_Button qs_Button--dark">See all features</button>`
@@ -43,7 +43,7 @@ export class Buttons extends Component {
                 <button className="qs_Button qs_Button--red">Delete</button>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<button class="qs_Button qs_Button--red">Delete</button>`
@@ -62,7 +62,7 @@ export class Buttons extends Component {
                 <button className="qs_Button qs_Button--green">Sign up</button>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<button class="qs_Button qs_Button--dark">Contact Us</button>`
@@ -76,7 +76,7 @@ export class Buttons extends Component {
                 <button className="qs_Button qs_Button--green qs_Button--small">Sign up</button>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<button class="qs_Button qs_Button--green qs_Button--small">Sign up</button>`
@@ -90,7 +90,7 @@ export class Buttons extends Component {
                 <button className="qs_Button qs_Button--green qs_Button--tiny">Sign up</button>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<button class="qs_Button qs_Button--green qs_Button--tiny">Sign up</button>`
@@ -104,7 +104,7 @@ export class Buttons extends Component {
                 <button className="qs_Button qs_Button--green qs_Button--fullwidth">Sign up</button>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<button class="qs_Button qs_Button--green qs_Button--fullwidth">Sign up</button>`
@@ -129,7 +129,7 @@ export class Buttons extends Component {
                 <button className="qs_Button qs_Button--red">Delete</button>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<button class="qs_Button qs_Button--green">Sign up</button>
@@ -151,7 +151,7 @@ export class Buttons extends Component {
                 <button className="qs_Button qs_Button--dark qs_Button--outline">Contact us</button>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<button class="qs_Button qs_Button--green qs_Button--outline">Sign Up</button>
@@ -167,7 +167,7 @@ export class Buttons extends Component {
                 <button className="qs_Button qs_Button--red qs_Button--disabled">Delete</button>
               </div>
               <p>Usage:</p>
-              <div className="qs_codeBlock">
+              <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
                     `<button class="qs_Button qs_Button--red qs_Button--disabled">Delete</button>`

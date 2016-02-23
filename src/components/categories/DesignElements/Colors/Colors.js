@@ -9,7 +9,7 @@ export class Colors extends Component {
     return (
       <div>
         <section className="bgLight pageSection">
-          <p>Found in <code className="qs_codeInline">_palette.scss</code></p>
+          <p>Found in <code className="qs_CodeInline">_palette.scss</code></p>
           <h2>Grayscale Palette</h2>
           <p>Grayscale color palette as found in <em>_palette.scss</em></p>
           <ul className="swatchList">
