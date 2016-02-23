@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.3",
+    "ejs": "^2.4.1",
     "highlight.js": "^9.1.0",
     "history": "^2.0.0",
     "react": "^0.14.3",
