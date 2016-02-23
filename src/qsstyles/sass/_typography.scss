@@ -72,7 +72,6 @@ p {
   font-size: 22px;
   font-size: 2.2rem;
   font-family: $sansserif;
-  text-align: center;
 }
 
 // ==============================
@@ -109,4 +108,10 @@ ul, ol, img {
 // ==============================
 .qs_Center {
   text-align: center;
+}
+.qs_Right {
+  text-align: right;
+}
+.qs_Left {
+  text-align: left;
 }
