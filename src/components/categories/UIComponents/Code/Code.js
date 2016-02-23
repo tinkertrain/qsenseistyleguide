@@ -20,6 +20,7 @@ export class Code extends Component {
         </section>
         <section className="bgMedium pageSection">
           <h2>Code Blocks</h2>
+          <p>To use Code Blocks with syntax highlighting, the library <a href="https://highlightjs.org/">highlightjs</a> must be included, for the theme we use <code className="qs_CodeInline">monokai-sublime</code></p>
           <div className="qs_CodeBlock">
             <CodeBlock language="javascript">
               {`var myArray = [0, 1, 2];`}
