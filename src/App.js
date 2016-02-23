@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Sidebar from './components/Sidebar/';
-import { Index } from './components/Index/Index';
 import { Header } from './components/Header/Header';
 
 require('./App.scss');
@@ -14,7 +13,7 @@ export class App extends Component {
         <Header />
         <div className="container">
           <section className="main">
-            {this.props.children || <Index />}
+            {this.props.children}
           </section>
           <aside className="sidebar">
             <Sidebar location={location.pathname}/>
