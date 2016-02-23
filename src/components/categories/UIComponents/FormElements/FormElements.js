@@ -55,6 +55,7 @@ export class FormElements extends Component {
             </li>
             <li>
               <h3>Input with label on top</h3>
+              <p>Labels use the color <code className="qs_CodeInline">$mediumgray</code></p>
               <div className="sample">
                 <div className="qs_Input">
                   <label htmlFor="example4">First Name</label>
