@@ -5,7 +5,7 @@ export class FormElements extends Component {
   render() {
     return (
       <div>
-        <section className="bgLight pageSection">
+        <section className="qs_Bg--white pageSection">
           <p>Found in <code className="qs_CodeInline">_formElements.scss</code></p>
           <h2>Basic Elements</h2>
           <ul className="examplesList">
@@ -141,7 +141,7 @@ export class FormElements extends Component {
             </li>
           </ul>
         </section>
-        <section className="bgMedium pageSection">
+        <section className="qs_Bg--lightgray pageSection">
           <h2>Form</h2>
           <ul className="examplesList">
             <li>

@@ -8,7 +8,7 @@ export class Colors extends Component {
   render() {
     return (
       <div>
-        <section className="bgLight pageSection">
+        <section className="qs_Bg--white pageSection">
           <p>Found in <code className="qs_CodeInline">_palette.scss</code></p>
           <h2>Grayscale Palette</h2>
           <p>Grayscale color palette as found in <em>_palette.scss</em></p>
@@ -22,7 +22,7 @@ export class Colors extends Component {
             }
           </ul>
         </section>
-        <section className="bgMedium pageSection">
+        <section className="qs_Bg--lightgray pageSection">
           <h2>Primary Palette</h2>
           <p>Primary color palette as found in <em>_palette.scss</em></p>
           <ul className="swatchList">

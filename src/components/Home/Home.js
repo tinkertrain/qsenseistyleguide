@@ -7,7 +7,7 @@ export class Home extends Component {
   render() {
     return (
       <div>
-        <section className="bgLight pageSection">
+        <section className="qs_Bg--white pageSection">
           <h1 className="qs_Center">Style Guide</h1>
           <p className="qs_Entry qs_Center">
             <strong>qsstyles</strong> is crafted to give consistency and make the process of sharing styles across the website and other projects at Q-Sensei simpler.

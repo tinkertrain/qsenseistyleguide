@@ -9,12 +9,6 @@
     margin: 0;
   }
 }
-.bgLight {
-  background-color: $white;
-}
-.bgMedium {
-  background-color: $lightgray;
-}
 .pageSection {
   padding: 60px 90px;
 }
@@ -31,7 +25,7 @@
     }
   }
 
-  .bgMedium & {
+  .qs_Bg--lightgray & {
     li {
       background-color: rgba($white, 0.35);
     }

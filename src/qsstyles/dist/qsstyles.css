@@ -113,7 +113,7 @@ ul, ol, img {
   border-radius: 3px;
   padding: 1px 5px;
   vertical-align: middle; }
-  .bgMedium .qs_CodeInline {
+  .qs_Bg--lightgray .qs_CodeInline {
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.7); }
 

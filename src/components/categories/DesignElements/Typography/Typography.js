@@ -7,7 +7,7 @@ export class Typography extends Component {
   render() {
     return (
       <div>
-        <section className="bgLight pageSection">
+        <section className="qs_Bg--white pageSection">
           <p>Found in <code className="qs_CodeInline">_typography.scss</code></p>
           <h2>Font Families</h2>
           <p>We use 3 typefaces at Q-Sensei:</p>
@@ -27,7 +27,7 @@ export class Typography extends Component {
           </ul>
         </section>
 
-        <section className="bgMedium pageSection">
+        <section className="qs_Bg--lightgray pageSection">
           <h2>Sizing</h2>
           <p>We use <code className="qs_CodeInline">rem</code> units with a pixel fallback for maximum flexibility. We define a base font size of <code className="qs_CodeInline">62.5%</code> to have the convenience of sizing rems in a way that is similar to using <code className="qs_CodeInline">px</code>.</p>
           <p>Example:</p>
@@ -50,7 +50,7 @@ export class Typography extends Component {
           </div>
         </section>
 
-        <section className="bgLight pageSection">
+        <section className="qs_Bg--white pageSection">
           <h2>Headings</h2>
           <p>All headings use the sans serif typeface (sharp semibold).</p>
           <ul className="examplesList">
@@ -105,7 +105,7 @@ export class Typography extends Component {
           </ul>
         </section>
 
-        <section className="bgMedium pageSection">
+        <section className="qs_Bg--lightgray pageSection">
           <h2>Page Titles</h2>
           <p>Used only for the header of each page, always an <code className="qs_CodeInline">h1</code> with a class of <code className="qs_CodeInline">.qs_PageTitle</code></p>
           <div className="sample">
@@ -121,7 +121,7 @@ export class Typography extends Component {
           </div>
         </section>
 
-        <section className="bgLight pageSection">
+        <section className="qs_Bg--white pageSection">
           <h2>Body copy</h2>
           <p>Sets the font family to $serif, the size to 16px - 1.6 rem and the line height to 1.5 and color to <code className="qs_CodeInline">$black</code></p>
           <p>To get <strong>bold text</strong>, wrap with a <code className="qs_CodeInline">strong</code> element</p>
@@ -139,7 +139,7 @@ export class Typography extends Component {
           </div>
         </section>
 
-        <section className="bgMedium pageSection">
+        <section className="qs_Bg--lightgray pageSection">
           <h2>Entry body copy</h2>
           <p>For an intro to a section that needs to be emphacized.</p>
           <p className="qs_Entry">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -153,7 +153,7 @@ export class Typography extends Component {
           </div>
         </section>
 
-        <section className="bgLight pageSection">
+        <section className="qs_Bg--white pageSection">
           <h2>Links</h2>
           <p>All link states are taken into consideration and fully styled.</p>
           <ul>
@@ -175,7 +175,7 @@ export class Typography extends Component {
           </ul>
         </section>
 
-        <section className="bgMedium pageSection">
+        <section className="qs_Bg--lightgray pageSection">
           <h2>Typography Helpers</h2>
           <ul>
             <li>Align text to the center: add the class <code className="qs_CodeInline">qs_Center</code></li>

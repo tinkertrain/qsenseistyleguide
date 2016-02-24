@@ -20,7 +20,7 @@ export class Container extends Component {
         <section className="main">
         {
           this.props.children || (
-          <section className="bgLight pageSection">
+          <section className="qs_Bg--white pageSection">
             {
               path === 'Design Elements' ?
               (<div>

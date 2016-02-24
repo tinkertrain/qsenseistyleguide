@@ -5,7 +5,7 @@ export class Buttons extends Component {
   render() {
     return (
       <div>
-        <section className="bgLight pageSection">
+        <section className="qs_Bg--white pageSection">
           <p>Found in <code className="qs_CodeInline">_buttons.scss</code></p>
           <h2>Color Variations</h2>
           <ul className="examplesList">
@@ -53,11 +53,12 @@ export class Buttons extends Component {
             </li>
           </ul>
         </section>
-        <section className="bgMedium pageSection">
+        <section className="qs_Bg--lightgray pageSection">
           <h2>Size Variations</h2>
           <ul className="examplesList">
             <li>
               <h3>Standard</h3>
+              <p>Note: The standard size has minimum width of 300px and rarely would go bigger (only if the text happens to be quite long).</p>
               <div className="sample">
                 <button className="qs_Button qs_Button--green">Sign up</button>
               </div>
@@ -65,7 +66,7 @@ export class Buttons extends Component {
               <div className="qs_CodeBlock">
                 <CodeBlock language="html">
                   {
-                    `<button class="qs_Button qs_Button--dark">Contact Us</button>`
+                    `<button class="qs_Button qs_Button--green">Sign Up</button>`
                   }
                 </CodeBlock>
               </div>
@@ -114,7 +115,7 @@ export class Buttons extends Component {
             </li>
           </ul>
         </section>
-        <section className="bgLight pageSection">
+        <section className="qs_Bg--white pageSection">
           <h2>Styles Variations</h2>
           <ul className="examplesList">
             <li>
