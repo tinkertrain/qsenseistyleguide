@@ -1,0 +1,29 @@
+@import "../../../../qsstyles/sass/_palette.scss";
+@import "../../../../qsstyles/sass/_fonts.scss";
+
+.iconsList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  li {
+    flex: 0 1 auto;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+    border: 1px solid $lightgray;
+    font-family: $sansserif;
+  }
+
+  p {
+    margin-top: 15px;
+  }
+
+  img {
+    width: 50%;
+  }
+
+}
