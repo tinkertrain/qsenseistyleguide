@@ -1,0 +1,38 @@
+// ++++++++++++++++++++
+// Background Colors
+// ++++++++++++++++++++
+
+.qs_Bg--clear {
+  background-color: transparent;
+}
+
+.qs_Bg--white {
+  background-color: $white;
+  color: $darkgray;
+}
+
+.qs_Bg--lightgray {
+  background-color: $lightgray;
+}
+
+.qs_Bg--mediumgray {
+  background-color: $mediumgray;
+  color: $white;
+}
+
+.qs_Bg--darkgray {
+  background-color: $darkgray;
+  color: $white;
+}
+
+// ++++++++++++++++++++
+// PAGE SECTIONS
+// ++++++++++++++++++++
+
+.qs_PageSection {
+  padding: 60px 15px;
+}
+.qs_PageSection__container {
+  margin-right: auto;
+  margin-left: auto;
+}
