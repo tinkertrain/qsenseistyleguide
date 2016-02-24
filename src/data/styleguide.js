@@ -21,6 +21,12 @@ const categories = [
       },
       {
         name: 'Code'
+      },
+      {
+        name: 'Layout'
+      },
+      {
+        name: 'Icons'
       }
     ]
   }
