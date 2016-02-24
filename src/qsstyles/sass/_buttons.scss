@@ -2,6 +2,7 @@
   display: block;
   border: 0;
 
+  min-width: 300px;
   padding: 20px 40px;
 
   transition: background-color 0.2s ease-out;
@@ -86,10 +87,12 @@
 }
 
 .qs_Button.qs_Button--tiny {
+  min-width: auto;
   padding: 10px 10px;
   font-size: 13px;
 }
 .qs_Button.qs_Button--small {
+  min-width: auto;
   padding: 15px 15px;
 }
 .qs_Button.qs_Button--fullwidth {
