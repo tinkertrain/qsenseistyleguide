@@ -75,8 +75,7 @@ p {
 .qs_Entry {
   font-size: 22px;
   font-size: 2.2rem;
-  font-family: "sharp", sans-serif;
-  text-align: center; }
+  font-family: "sharp", sans-serif; }
 
 a {
   text-decoration: none;
@@ -85,18 +84,28 @@ a {
     color: #0b7200; }
   a:focus {
     color: #13be00;
-    border: 1px dotted #0b7200;
-    outline: 0; }
+    outline: 1px dotted #0b7200; }
   a:visited {
     color: purple; }
 
 ul, ol, img {
+  margin-top: 0;
   margin-bottom: 1.5em; }
+
+.qs_Center {
+  text-align: center; }
+
+.qs_Right {
+  text-align: right; }
+
+.qs_Left {
+  text-align: left; }
 
 .qs_CodeBlock {
   font-size: 12px;
   font-size: 1.2rem;
-  line-height: 1.75; }
+  line-height: 1.75;
+  margin-bottom: 1.5em; }
   .qs_CodeBlock code {
     font-family: Monaco, Consolas, "Ubuntu Mono", Cantarell, monospace;
     padding: 15px; }
@@ -120,6 +129,7 @@ ul, ol, img {
 .qs_Button {
   display: block;
   border: 0;
+  min-width: 300px;
   padding: 20px 40px;
   transition: background-color 0.2s ease-out;
   font-family: "sharp", sans-serif;
@@ -178,10 +188,12 @@ ul, ol, img {
   cursor: not-allowed; }
 
 .qs_Button.qs_Button--tiny {
+  min-width: auto;
   padding: 10px 10px;
   font-size: 13px; }
 
 .qs_Button.qs_Button--small {
+  min-width: auto;
   padding: 15px 15px; }
 
 .qs_Button.qs_Button--fullwidth {
@@ -283,3 +295,28 @@ x:-o-prefocus, .qs_Input.qs_Select::after {
 
 .focused {
   border-color: #13be00 !important; }
+
+.qs_Bg--clear {
+  background-color: transparent; }
+
+.qs_Bg--white {
+  background-color: #fff;
+  color: #2e2e2a; }
+
+.qs_Bg--lightgray {
+  background-color: #dad8d0; }
+
+.qs_Bg--mediumgray {
+  background-color: #716f69;
+  color: #fff; }
+
+.qs_Bg--darkgray {
+  background-color: #2e2e2a;
+  color: #fff; }
+
+.qs_PageSection {
+  padding: 60px 15px; }
+
+.qs_PageSection__container {
+  margin-right: auto;
+  margin-left: auto; }
