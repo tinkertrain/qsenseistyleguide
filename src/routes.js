@@ -11,6 +11,8 @@ import Typography from './components/categories/DesignElements/Typography/';
 import Buttons from './components/categories/UIComponents/Buttons/';
 import FormElements from './components/categories/UIComponents/FormElements/';
 import Code from './components/categories/UIComponents/Code/';
+import Layout from './components/categories/UIComponents/Layout/';
+import Icons from './components/categories/UIComponents/Icons/';
 
 export default (
   <Route path="/" component={App}>
@@ -31,6 +33,8 @@ export default (
       <Route path="buttons" component={Buttons} />
       <Route path="form_elements" component={FormElements} />
       <Route path="code" component={Code} />
+      <Route path="layout" component={Layout} />
+      <Route path="icons" component={Icons} />
     </Route>
   </Route>
 );

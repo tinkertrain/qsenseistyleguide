@@ -15,7 +15,9 @@ var paths = [
   '/ui_components',
   '/ui_components/buttons',
   '/ui_components/form_elements',
-  '/ui_components/code'
+  '/ui_components/code',
+  '/ui_components/layout',
+  '/ui_components/icons'
 ];
 
 module.exports = {
