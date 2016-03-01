@@ -10,9 +10,9 @@ export class Layout extends Component {
           <p>Usage:</p>
           <div className="qs_CodeBlock">
             <CodeBlock language="html">
-                {`<section className="qs_PageSection qs_Center qs_Bg--darkgray">
-  <div className="qs_PageSection__container">
-    <h1 className="qs_PageTitle">What You Get</h1>
+                {`<section class="qs_PageSection qs_Center qs_Bg--darkgray">
+  <div class="qs_PageSection__container">
+    <h1 class="qs_PageTitle">What You Get</h1>
   </div>
 </section>`}
             </CodeBlock>
@@ -32,8 +32,8 @@ export class Layout extends Component {
           <p>Usage:</p>
           <div className="qs_CodeBlock">
             <CodeBlock language="html">
-                {`<section className="qs_PageSection">
-  <div className="qs_PageSection__container">
+                {`<section class="qs_PageSection">
+  <div class="qs_PageSection__container">
     <p>Some content</p>
   </div>
 </section>`}
@@ -43,8 +43,8 @@ export class Layout extends Component {
           <p>Example:</p>
           <div className="qs_CodeBlock">
             <CodeBlock language="html">
-                {`<section className="qs_PageSection qs_Bg--darkgray">
-  <div className="qs_PageSection__container">
+                {`<section class="qs_PageSection qs_Bg--darkgray">
+  <div class="qs_PageSection__container">
     <p>Some content</p>
   </div>
 </section>`}
