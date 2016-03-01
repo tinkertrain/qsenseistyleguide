@@ -103,9 +103,12 @@ export class App extends Component {
               }
             </TransitionMotion>
           </section>
-          <aside className="sidebar">
-            <Sidebar location={location.pathname}/>
-          </aside>
+          {
+            location.pathname !== '/sample' ?
+            <aside className="sidebar">
+              <Sidebar location={location.pathname}/>
+            </aside> : null
+          }
         </div>
         <footer className="footer">&copy; 2016</footer>
       </div>
