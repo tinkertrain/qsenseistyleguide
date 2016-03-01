@@ -14,27 +14,26 @@ import Code from './components/categories/UIComponents/Code/';
 import Layout from './components/categories/UIComponents/Layout/';
 import Icons from './components/categories/UIComponents/Icons/';
 
+import Sample from './components/Sample';
+
 export default (
   <Route path="/" component={App}>
     <IndexRoute component={Home}/>
 
-    <Route
-      path="design_elements"
-      component={Container}
-      >
+    <Route path="design_elements" component={Container}>
       <Route path="colors" component={Colors} />
       <Route path="typography" component={Typography} />
     </Route>
 
-    <Route
-      path="ui_components"
-      component={Container}
-      >
+    <Route path="ui_components" component={Container}>
       <Route path="buttons" component={Buttons} />
       <Route path="form_elements" component={FormElements} />
       <Route path="code" component={Code} />
       <Route path="layout" component={Layout} />
       <Route path="icons" component={Icons} />
     </Route>
+
+    <Route path="sample" component={Sample} />
   </Route>
+
 );
