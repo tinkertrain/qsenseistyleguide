@@ -22,7 +22,7 @@ export class Home extends Component {
           <p><strong>qsstyles</strong> has a dependency on the CSS library <a href="https://necolas.github.io/normalize.css/">Normalize</a> to ensure styling across browsers is consistent, the only other dependency is <a href="https://highlightjs.org/">highlightjs</a>, needed only if the CodeBlock element is used (see <Link to="/ui_components/code">Code</Link>)</p>
 
           <h3>Usage</h3>
-          <p>The simplest way to use it, is to first we include <em>Normalize</em>, and then add the reference to the file <code className="qs_CodeInline">qsstyles.min.css</code> found in the <code className="qs_CodeInline">dist/</code> folder into an html file.</p>
+          <p>The simplest way to use it, is to first include <em>Normalize</em>, and then add the reference to the file <code className="qs_CodeInline">qsstyles.min.css</code> found in the <code className="qs_CodeInline">dist/</code> folder into an html file.</p>
           <p>Like so:</p>
           <div className="qs_CodeBlock">
             <CodeBlock language="html">
