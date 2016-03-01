@@ -29,6 +29,10 @@ const categories = [
         name: 'Icons'
       }
     ]
+  },
+  {
+    name: 'Sample',
+    items: []
   }
 ];
 
