@@ -12,12 +12,11 @@ export class Container extends Component {
     const path = parentPath ? `${parentPath}: ${currentPath}` : currentPath;
 
     return (
-
       <div>
         <header className="containerHeader">
           <h1>{path}</h1>
         </header>
-        <section className="main">
+        <section className="containerMain">
         {
           this.props.children || (
           <section className="qs_Bg--white pageSection">
