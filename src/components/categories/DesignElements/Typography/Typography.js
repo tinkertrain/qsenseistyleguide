@@ -178,9 +178,10 @@ export class Typography extends Component {
         <section className="qs_Bg--lightgray pageSection">
           <h2>Typography Helpers</h2>
           <ul>
-            <li>Align text to the center: add the class <code className="qs_CodeInline">qs_Center</code></li>
-            <li>Align text to the left: add the class <code className="qs_CodeInline">qs_Left</code></li>
-            <li>Align text to the right: add the class <code className="qs_CodeInline">qs_Right</code></li>
+            <li>Align to the center: add the class <code className="qs_CodeInline">qs_Center</code></li>
+            <li>Align to the left: add the class <code className="qs_CodeInline">qs_Left</code></li>
+            <li>Align to the right: add the class <code className="qs_CodeInline">qs_Right</code></li>
+            <li><span className="qs_Underline">Underline</span> text: add the class <code className="qs_CodeInline">qs_Underline</code></li>
           </ul>
         </section>
       </div>
