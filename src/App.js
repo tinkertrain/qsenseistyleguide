@@ -104,7 +104,7 @@ export class App extends Component {
             </TransitionMotion>
           </section>
           {
-            location.pathname !== '/sample' ?
+            location.pathname.indexOf('sample') === -1 ?
             <aside className="sidebar">
               <Sidebar location={location.pathname}/>
             </aside> : null

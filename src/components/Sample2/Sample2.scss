@@ -1,0 +1,140 @@
+.fontSizeSwitcher {
+  text-align: right;
+  label {
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+  .qs_Input {
+    width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+  }
+}
+
+.button-row {
+  text-align: center;
+  margin-top: 60px;
+  button {
+    display: inline-block;
+    &:first-child {
+      margin-right: 15px;
+    }
+  }
+}
+// Base 18
+.qs_Base--18 {
+  font-size: 1.125em;
+  font-size: 18px;
+  line-height: 1.5;
+
+  .qs_PageTitle {
+    font-size: 40px;
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2.25em;
+    font-size: 36px;
+    line-height: 0.75em;
+    margin-bottom: 0.75em;
+  }
+  h2 {
+    font-size: 1.625em;
+    font-size: 26px;
+    line-height: 1.0384615384615385em;
+    margin-bottom: 1.0384615384615385em;
+  }
+  h3 {
+    font-size: 1.375em;
+    font-size: 22px;
+    line-height: 1.2272727272727273em;
+    margin-bottom: 1.2272727272727273em;
+  }
+  h4 {
+    font-size: 1.125em;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  h5 {
+    font-size: 0.875em;
+    font-size: 14px;
+    line-height: 1.9285714285714286em;
+    margin-bottom: 1.9285714285714286em;
+  }
+  p {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+    font-size: 1.125em;
+    font-size: 18px;
+  }
+  ul,
+  ol,
+  img {
+    margin-bottom: 1.5em;
+  }
+  .qs_Entry {
+    font-size: 22px;
+    font-size: 2.2rem;
+  }
+}
+// Base 20
+.qs_Base--20 {
+  font-size: 1.25em;
+  font-size:20px;
+  line-height: 1.5;
+
+  .qs_PageTitle {
+    font-size: 40px;
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    font-size: 40px;
+    line-height: 0.75em;
+    margin-bottom: 0.75em;
+  }
+  h2 {
+    font-size: 1.875em;
+    font-size: 30px;
+    line-height: 1em;
+    margin-bottom: 1em;
+  }
+  h3 {
+    font-size: 1.5625em;
+    font-size: 25px;
+    line-height: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  h4 {
+    font-size: 1.25em;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  h5 {
+    font-size: 0.9375em;
+    font-size: 15px;
+    line-height: 2em;
+    margin-bottom: 2em;
+  }
+  p {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+    font-size: 1.25em;
+    font-size:20px;
+  }
+  ul,
+  ol,
+  img {
+    margin-bottom: 1.5em;
+  }
+  .qs_Entry {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+}
