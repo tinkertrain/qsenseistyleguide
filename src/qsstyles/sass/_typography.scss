@@ -28,8 +28,8 @@ h1, .qs_Heading1 {
   margin-bottom: 0.6666666666666666em;
 }
 h2, .qs_Heading2 {
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-size: 26px;
+  font-size: 2.6rem;
   line-height: 1em;
   margin-bottom: 1em;
 }
@@ -69,8 +69,8 @@ p {
   }
 }
 .qs_Entry {
-  font-size: 22px;
-  font-size: 2.2rem;
+  font-size: 20px;
+  font-size: 2rem;
   font-family: $sansserif;
 }
 
@@ -116,6 +116,22 @@ ul, ol, img {
 .qs_Left {
   text-align: left;
 }
+.qs_White {
+  color: $white;
+}
+.qs_Lightgray {
+  color: $lightgray;
+}
+.qs_Mediumgray {
+  color: $mediumgray;
+}
+.qs_Darkgray {
+  color: $darkgray;
+}
+.qs_Black {
+  color: $black;
+}
+
 .qs_Underline {
   text-decoration: none;
   position: relative;
