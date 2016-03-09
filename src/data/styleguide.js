@@ -33,6 +33,10 @@ const categories = [
   {
     name: 'Sample',
     items: []
+  },
+  {
+    name: 'Sample2',
+    items: []
   }
 ];
 
