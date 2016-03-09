@@ -18,7 +18,8 @@ var paths = [
   '/ui_components/code',
   '/ui_components/layout',
   '/ui_components/icons',
-  '/sample'
+  '/sample',
+  '/sample2'
 ];
 
 module.exports = {

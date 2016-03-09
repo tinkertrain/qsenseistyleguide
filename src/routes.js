@@ -15,6 +15,7 @@ import Layout from './components/categories/UIComponents/Layout/';
 import Icons from './components/categories/UIComponents/Icons/';
 
 import Sample from './components/Sample';
+import Sample2 from './components/Sample2';
 
 export default (
   <Route path="/" component={App}>
@@ -34,6 +35,7 @@ export default (
     </Route>
 
     <Route path="sample" component={Sample} />
+    <Route path="sample2" component={Sample2} />
   </Route>
 
 );
